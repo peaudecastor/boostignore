@@ -1,6 +1,6 @@
 # Recommended .boostignore file
 
-Boost recommends to place this file in the root of your projects.
+Boost recommends to place the contents below in a file called `.boostignore` in the root of your projects. As the name implies, Boost will ignore these files and directories when scanning which will reduce the false positive rate.
 
 ```
 # File & directory patterns added here will be ignored by Boost
