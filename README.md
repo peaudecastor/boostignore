@@ -45,4 +45,5 @@ dist/
 .git/
 examples/
 *.min.js
+vendor/
 ```
