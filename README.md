@@ -6,43 +6,40 @@ Boost recommends to place the contents below in a file called `.boostignore` in 
 # File & directory patterns added here will be ignored by Boost
 
 # TESTS
-
-# general
 test/
 tests/
+atest/
+utest/
 unit/
 unit_tests/
 fixture/
 fixtures/
 spec/
-
-# javascript
-*.test.js
-*.test.jsx
-*.test.ts
-*.test.tsx
-*.spec.js
-*.spec.jsx
-*.spec.ts
-*.spec.tsx
-cypress/integration/
-
-# python
+*.test.*
 *test_*.py
 *_test.py
-atest/
-utest/
-
-# go
 *_test.go
 
 
-# OTHER
-
+# DEPS
 node_modules/
+vendor/
+
+# BUILD & STATIC
 build/
 dist/
+static/
+assets/
+
+# DOCS & OTHER
 .git/
 examples/
 *.min.js
+*.rst
+*.md
+*.txt
+*.adoc
+*.mdx
+*.sample
+*.markdown
 ```
